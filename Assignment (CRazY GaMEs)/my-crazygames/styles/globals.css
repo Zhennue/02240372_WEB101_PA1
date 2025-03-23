@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+
+/* app/styles/globals.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #111;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    max-width: 100px;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero-section {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero-section .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .explore-button:hover {
+    background-color: #ff5a4e;
+  }
+  
+  .games-section {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  .games-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .games-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .game-card {
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .game-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
